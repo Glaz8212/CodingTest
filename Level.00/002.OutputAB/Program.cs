@@ -8,7 +8,10 @@
         static void Main(string[] args)
         {
             string input = Console.ReadLine();
+            // 주어진 두 정수를 한 글자씩 분리
             string[] inputs = input.Split();
+
+            //분리 후 배열 첫 번째와 두 번째에 담아서 a, b에 저장
             int a = int.Parse(inputs[0]);
             int b = int.Parse(inputs[1]);
             Console.WriteLine($"a = {a}");

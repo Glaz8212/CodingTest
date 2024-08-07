@@ -13,16 +13,20 @@
             Console.Clear();
             s = Console.ReadLine();
 
+            // 입력받은 영어 문자열을 ss의 char형 배열에 저장
             char[] ss = s.ToCharArray();
 
             for (int i = 0; i < ss.Length; i++)
             {
+                // 문자열 내의 대문자의 경우
                 if (char.IsUpper(ss[i]))
-                {
+                {  
+                    // 소문자로 변환
                     ss[i] = char.ToLower(ss[i]);
                 }
+                // 소문자의 경우
                 else
-                {
+                {   // 대문자로 변환
                     ss[i] = char.ToUpper(ss[i]);
                 }
             }

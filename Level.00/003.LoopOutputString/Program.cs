@@ -12,9 +12,15 @@
             String[] input;
 
             Console.Clear();
+
+            // 주어진 문자열과 정수를 분리 후 배열에 넣는다.
             input = Console.ReadLine().Split(' ');
 
+            
+            // 문자열을 s1에 저장
             String s1 = input[0];
+            
+            // 정수를 정수로 변환 후 a에 저장
             int a = Int32.Parse(input[1]);
 
             for (int i = 0; i < a; i++)

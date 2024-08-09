@@ -29,13 +29,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "013.DoubleArrangement", "01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "011.CompareTwo", "011.CompareTwo\011.CompareTwo.csproj", "{C282DFB3-957A-41C0-B414-0826E3804159}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "014.CalculateRest", "014.CalculateRest\014.CalculateRest.csproj", "{4077924E-E5A9-4AB4-8120-4339968660A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "014.CalculateRest", "014.CalculateRest\014.CalculateRest.csproj", "{4077924E-E5A9-4AB4-8120-4339968660A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "015.FindMiddleValue", "015.FindMiddleValue\015.FindMiddleValue.csproj", "{41CD84EF-C345-4035-BCBB-262C7B1E094D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "015.FindMiddleValue", "015.FindMiddleValue\015.FindMiddleValue.csproj", "{41CD84EF-C345-4035-BCBB-262C7B1E094D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016.GetMostFrequentPrice", "016.GetMostFrequentPrice\016.GetMostFrequentPrice.csproj", "{985AEE32-CF25-41AA-AA54-DF69C853DD32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "016.GetMostFrequentPrice", "016.GetMostFrequentPrice\016.GetMostFrequentPrice.csproj", "{985AEE32-CF25-41AA-AA54-DF69C853DD32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017.HateEven", "017.HateEven\017.HateEven.csproj", "{A76D5A50-5B3F-4115-B2BF-5C180EF2FEAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "017.HateEven", "017.HateEven\017.HateEven.csproj", "{A76D5A50-5B3F-4115-B2BF-5C180EF2FEAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "018.DevidePizza1", "018.DevidePizza1\018.DevidePizza1.csproj", "{DABF12FF-F70D-435D-910B-EC0FB52F0132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "019.DevidePizza2", "019.DevidePizza2\019.DevidePizza2.csproj", "{7ACBDBA5-E203-47DC-BA6A-00C9A1E7E464}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "020.DevidePizza3", "020.DevidePizza3\020.DevidePizza3.csproj", "{F1F2B3B7-A413-4208-AC39-44BC4B5DCC51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "021.GetAverage", "021.GetAverage\021.GetAverage.csproj", "{36B57206-A8D4-4865-89E4-CAB212AC48C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "022.FindBiggestNumAndIndex", "022.FindBiggestNumAndIndex\022.FindBiggestNumAndIndex.csproj", "{16D05FE6-9955-4313-ABF1-3E288CD8E46D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +121,26 @@ Global
 		{A76D5A50-5B3F-4115-B2BF-5C180EF2FEAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76D5A50-5B3F-4115-B2BF-5C180EF2FEAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76D5A50-5B3F-4115-B2BF-5C180EF2FEAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABF12FF-F70D-435D-910B-EC0FB52F0132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABF12FF-F70D-435D-910B-EC0FB52F0132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABF12FF-F70D-435D-910B-EC0FB52F0132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABF12FF-F70D-435D-910B-EC0FB52F0132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ACBDBA5-E203-47DC-BA6A-00C9A1E7E464}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ACBDBA5-E203-47DC-BA6A-00C9A1E7E464}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ACBDBA5-E203-47DC-BA6A-00C9A1E7E464}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ACBDBA5-E203-47DC-BA6A-00C9A1E7E464}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1F2B3B7-A413-4208-AC39-44BC4B5DCC51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1F2B3B7-A413-4208-AC39-44BC4B5DCC51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1F2B3B7-A413-4208-AC39-44BC4B5DCC51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1F2B3B7-A413-4208-AC39-44BC4B5DCC51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B57206-A8D4-4865-89E4-CAB212AC48C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B57206-A8D4-4865-89E4-CAB212AC48C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B57206-A8D4-4865-89E4-CAB212AC48C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B57206-A8D4-4865-89E4-CAB212AC48C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D05FE6-9955-4313-ABF1-3E288CD8E46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D05FE6-9955-4313-ABF1-3E288CD8E46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D05FE6-9955-4313-ABF1-3E288CD8E46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D05FE6-9955-4313-ABF1-3E288CD8E46D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -47,13 +47,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "021.GetAverage", "021.GetAv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "022.FindBiggestNumAndIndex", "022.FindBiggestNumAndIndex\022.FindBiggestNumAndIndex.csproj", "{16D05FE6-9955-4313-ABF1-3E288CD8E46D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "023.GetSale", "023.GetSale\023.GetSale.csproj", "{79BFB5AF-A9D5-4733-AD51-3C57287B67C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "023.GetSale", "023.GetSale\023.GetSale.csproj", "{79BFB5AF-A9D5-4733-AD51-3C57287B67C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "024.IceAmericano", "024.IceAmericano\024.IceAmericano.csproj", "{DE5D9B5A-8403-4183-8847-AC6132445A18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "024.IceAmericano", "024.IceAmericano\024.IceAmericano.csproj", "{DE5D9B5A-8403-4183-8847-AC6132445A18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "025.AgeOfTeacher", "025.AgeOfTeacher\025.AgeOfTeacher.csproj", "{1D5D2F04-546E-4837-9A0D-60A6F81EF1DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "025.AgeOfTeacher", "025.AgeOfTeacher\025.AgeOfTeacher.csproj", "{1D5D2F04-546E-4837-9A0D-60A6F81EF1DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "026.ReverseArray", "026.ReverseArray\026.ReverseArray.csproj", "{0EEE7CCA-C470-4F31-8AF8-AB639CDF82FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "026.ReverseArray", "026.ReverseArray\026.ReverseArray.csproj", "{0EEE7CCA-C470-4F31-8AF8-AB639CDF82FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "027.ReverseString", "027.ReverseString\027.ReverseString.csproj", "{F99E0BA0-CAA9-4911-9672-C497C620E95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "028.MakeRightTriangle", "028.MakeRightTriangle\028.MakeRightTriangle.csproj", "{47EBEC53-8698-4A65-B705-C683570A34B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "029.CountEvenOdd", "029.CountEvenOdd\029.CountEvenOdd.csproj", "{B4637ACF-F6C3-462A-831B-B5DA82AD3688}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "030.RepeatString", "030.RepeatString\030.RepeatString.csproj", "{44C68350-7C78-4FB6-A969-7173607C90A5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +173,22 @@ Global
 		{0EEE7CCA-C470-4F31-8AF8-AB639CDF82FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEE7CCA-C470-4F31-8AF8-AB639CDF82FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEE7CCA-C470-4F31-8AF8-AB639CDF82FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99E0BA0-CAA9-4911-9672-C497C620E95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99E0BA0-CAA9-4911-9672-C497C620E95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99E0BA0-CAA9-4911-9672-C497C620E95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99E0BA0-CAA9-4911-9672-C497C620E95B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EBEC53-8698-4A65-B705-C683570A34B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EBEC53-8698-4A65-B705-C683570A34B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EBEC53-8698-4A65-B705-C683570A34B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EBEC53-8698-4A65-B705-C683570A34B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4637ACF-F6C3-462A-831B-B5DA82AD3688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4637ACF-F6C3-462A-831B-B5DA82AD3688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4637ACF-F6C3-462A-831B-B5DA82AD3688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4637ACF-F6C3-462A-831B-B5DA82AD3688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C68350-7C78-4FB6-A969-7173607C90A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C68350-7C78-4FB6-A969-7173607C90A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C68350-7C78-4FB6-A969-7173607C90A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C68350-7C78-4FB6-A969-7173607C90A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
